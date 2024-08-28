@@ -1,0 +1,13 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+html[Attributes Style] {
+    -webkit-locale: "en-US";
+}
+:root {
+    view-transition-name: root;
+}
+html {
+    display: block;
+}

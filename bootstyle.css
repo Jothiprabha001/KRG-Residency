@@ -1,0 +1,115 @@
+ .container-fluid{
+            
+            color: black;
+        }
+
+.container{
+            align-items: center;
+        }
+
+        .row {
+            text-align: center;
+            color: black; 
+        }
+
+        .col{
+            border: 2px solid black;
+            height: 40px;
+            padding-top: 4px;
+            background-color:lightblue;
+        
+        }
+        .col-md-3{
+                  padding-right: 10px;
+        }
+
+        .col-sm-3{
+            text-align: center;
+            color: black;
+
+        }
+        .a1, .a2{
+            float: right;
+        }
+
+        .c1{
+            
+            text-align: center;
+        }
+        a {
+            
+            color: black;
+            text-decoration: none;
+        }
+
+        body{
+            background-image: url('bg11.jpeg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        ul li a {
+            float: left;
+            font-size: 20px;
+            margin-left: 10px;
+            margin-right: 5px;
+             color: black;
+            text-decoration: none;
+        }
+        ul li a :hover{
+            color: violet;
+
+        }
+        ul li {
+            float: left;
+        }
+        footer-copyright {
+            align-items: center;
+        }
+
+element.style {
+    width: 64px;
+    height: 64px;
+}
+div.jump {
+    -webkit-animation: jump 1.5s ease 0s infinite normal;
+    animation: jump 1.5s ease 0s infinite normal;
+    z-index: 9999999999;
+}
+
+.jump1 {
+    display: block;
+    position: fixed;
+    z-index: 9999999999;
+    left: 10px;
+    bottom: 10px;
+}
+div {
+    display: block;
+}
+
+.jump2 {
+    display: block;
+    position: fixed;
+    z-index: 9999999999;
+    right: 10px;
+    bottom: 10px;
+
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html {
+    
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.panel-body {
+    padding: 15px;
+}
+.panel-heading {
+
+  }
+
